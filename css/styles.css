@@ -683,3 +683,11 @@ h2 {
         padding: 1rem;
     }
 }
+
+.hero-section, .content-section {
+    min-height: 100vh;
+    /* Esto ayuda a centrar el contenido verticalmente dentro de la sección */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
